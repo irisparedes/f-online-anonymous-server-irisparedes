@@ -128,3 +128,29 @@ body {
   align-items: center;
   font-size: 14px;
 }
+
+/* TABLET */
+@media all and (min-width: 768px) {
+  .page__main-title {
+    width: 100px;
+    font-size: 50px;
+  }
+  .page__wrapper {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 990px;
+  }
+}
+/* DESKTOP */
+@media all and (min-width: 1024px) {
+  .page__main-title {
+    font-size: 100px;
+    margin: 0 0 100px 0;
+  }
+  .page__wrapper {
+    padding: 0 60px;    
+  }
+  .nav__item {
+    font-size: 48px;
+  }
+}
